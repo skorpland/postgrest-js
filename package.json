@@ -1,6 +1,6 @@
 {
   "name": "@skorpland/postgrest-js",
-  "version": "1.19.6",
+  "version": "1.19.8",
   "description": "Isomorphic PostgREST client",
   "keywords": [
     "postgrest",
@@ -53,8 +53,12 @@
   "dependencies": {
     "@skorpland/node-fetch": "^2.6.9"
   },
+  "peerDependencies": {
+    "typescript": ">=4.8"
+  },
   "devDependencies": {
     "@types/jest": "^27.5.1",
+    "@types/node": "18.17.14",
     "cpy-cli": "^5.0.0",
     "jest": "^28.1.0",
     "node-abort-controller": "^3.0.1",
@@ -67,7 +71,7 @@
     "tsd": "^0.31.2",
     "type-fest": "^4.32.0",
     "typedoc": "^0.22.16",
-    "typescript": "^4.5.5",
+    "typescript": "5.3",
     "wait-for-localhost-cli": "^3.0.0"
   }
 }
